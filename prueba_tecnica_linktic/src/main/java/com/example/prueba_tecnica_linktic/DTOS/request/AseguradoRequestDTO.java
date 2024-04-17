@@ -11,7 +11,7 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @NoArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class aseguradoRequestDTO {
+public class AseguradoRequestDTO {
     @JsonProperty("tipo_identificacion")
     TiposIdentificacionDTO tiposIdentificacion;
     @JsonProperty("nro_identificacion")

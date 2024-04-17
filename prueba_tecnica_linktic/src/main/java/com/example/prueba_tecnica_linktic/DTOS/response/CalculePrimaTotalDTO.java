@@ -33,7 +33,7 @@ public class CalculePrimaTotalDTO {
     @JsonProperty("nro_identificacion")
      String nroIdentificacion;
     @JsonProperty("valor_asegurado")
-     Float valorAsegurado;
+     Integer valorAsegurado;
     @JsonProperty("liquidaci\u00f3n")
      List<LiquidaciN> liquidaciN;
     @JsonProperty("Valor_total")

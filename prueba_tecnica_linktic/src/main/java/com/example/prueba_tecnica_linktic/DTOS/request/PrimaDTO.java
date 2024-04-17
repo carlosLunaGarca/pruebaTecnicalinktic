@@ -13,5 +13,5 @@ import java.util.List;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class PrimaDTO {
-List<aseguradoRequestDTO> list;
+List<AseguradoRequestDTO> list;
 }
